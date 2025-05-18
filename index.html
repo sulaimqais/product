@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="dashboard">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h2>Dashboard</h2>
+                <button class="toggle-sidebar" id="toggle-sidebar">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+            <nav class="sidebar-nav">
+                <ul>
+                    <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="#"><i class="fas fa-chart-line"></i> Analytics</a></li>
+                    <li><a href="#"><i class="fas fa-envelope"></i> Messages</a></li>
+                    <li><a href="#"><i class="fas fa-cog"></i> Settings</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Header -->
+            <header class="header">
+                <h1>Welcome Back!</h1>
+                <div class="user-actions">
+                    <button class="notification-btn">
+                        <i class="fas fa-bell"></i>
+                    </button>
+                    <div class="user-profile">
+                        <img src="https://via.placeholder.com/40" alt="User">
+                    </div>
+                </div>
+            </header>
+
+            <!-- Widgets Grid -->
+            <div class="widgets-grid">
+                <div class="widget">
+                    <h3>Total Users</h3>
+                    <p>1,024</p>
+                </div>
+                <div class="widget">
+                    <h3>Revenue</h3>
+                    <p>$5,678</p>
+                </div>
+                <div class="widget">
+                    <h3>Tasks</h3>
+                    <p>12/20 Completed</p>
+                </div>
+                <div class="widget">
+                    <h3>Server Status</h3>
+                    <p>Online</p>
+                </div>
+                <div class="widget">
+                    <h3>Chart Placeholder</h3>
+                    <p>📊</p>
+                </div>
+                <div class="widget">
+                    <h3>Activity</h3>
+                    <p>Recent updates...</p>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
